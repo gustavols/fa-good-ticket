@@ -1,0 +1,138 @@
+#page-auth {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+
+    aside {
+        flex: 7;
+        background: #256BA8;
+        color: #fff;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 120px 80px;
+
+        img {
+            max-width: 320px;
+        }
+
+        strong {
+            font: 700 36px 'poppins', sans-serif;
+            line-height: 42px;
+            margin-top: 16px;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 32px;
+            margin-top: 16px;
+            color: #f8f8f8;
+        }
+    }
+
+    main {
+        flex: 8;
+
+        padding: 0 32px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        align-items: stretch;
+        text-align: center;
+
+        >img {
+            align-self: center;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 64px 0 24px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        form {
+            input {
+                height: 50px;
+                border-radius: 8px;
+                padding: 0 16px;
+                margin-bottom: 16px;
+                background: #fff;
+                border: 1px solid #a8a8b3;
+            }
+
+            select {
+                height: 50px;
+                width: 100%;
+                border-radius: 8px;
+                padding: 0 16px;
+                margin-bottom: 16px;
+                background: #fff;
+                border: 1px solid #a8a8b3;
+            }
+
+            button {
+                margin: 16px 0 16px 0;
+            }
+
+            button,
+            input {
+                width: 100%;
+            }
+
+            a {
+                color: #29292e;
+                text-decoration: none;
+            }
+            .form-group-inputs {
+                text-align: left;
+                font-weight: 700;
+            }
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #page-auth {
+        display: flex;
+        flex-direction: column-reverse;
+        background: #256BA8;
+
+        .main-content {
+            img {
+                max-width: 320px !important;
+                content: url('../assets/images/WhiteLogo.svg');
+            }
+
+            form {
+                a {
+                    color: #f8f8f8;
+                }
+
+                button {
+                    background-color: #f8f8f8;
+                    color: #29292e
+                }
+            }
+
+            span {
+                color: #f8f8f8;
+            }
+        }
+
+        aside {
+            display: none;
+        }
+    }
+}

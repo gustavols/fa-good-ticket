@@ -1,0 +1,64 @@
+#profile-content {
+    max-width: 400px;
+    margin: 0 auto;
+  
+    form {
+      margin-top: 70px;
+      .principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0px 16px 0px 16px;
+  
+        span {
+          font-weight: 700;
+        }
+        input {
+          width: 100%;
+          padding: 16px 8px;
+          margin-bottom: 16px;
+          border: 1px solid #29292e;
+          border-radius: 8px;
+          background: #fefefe;
+          box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+          color: #29292e;
+          display: block;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+  
+  
+  @media only screen and (max-width: 375px) {
+          #profile-content {
+          form {
+              margin-top: 25px;
+              .principal {
+                  input {
+                      width: 100%;
+                      padding: 8px 8px;
+                  }
+              }
+          }
+      }
+  }
+  
+  
+  @media only screen and (max-width: 360px) {
+      #profile-content {
+          form {
+              margin-top: 45px;
+              .principal {
+                  input {
+                      width: 100%;
+                      padding: 8px 8px;
+                  }
+              }
+          }
+      }
+  }
+  

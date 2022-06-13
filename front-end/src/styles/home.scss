@@ -1,0 +1,39 @@
+#home-content {
+    main {
+        max-width: 1200px;
+        padding: 0 20px;
+        margin: 180px auto;
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            button {
+                margin-bottom: 16px;
+                width: 300px;
+            }
+        }
+
+        .main-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fefefe;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #29292E;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {}

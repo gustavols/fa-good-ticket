@@ -1,0 +1,150 @@
+.comments-area {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #256BA8;
+    background-color: #256BA8;
+
+    .comentariosChamados {
+        width: 95%;
+        background-color: #f8f8f8;
+        margin: 10px auto;
+        border-radius: 10px;
+
+
+        .firstComentario {
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            text-align: justify;
+
+            .hora_dataComentario{
+                display: flex;
+                flex-direction: row;
+
+                .horaComentario {
+                    text-align: justify;
+                    span {
+                        color: #000000;
+                        padding: 25px 2px 0px 10px;
+                        font-weight: 700;
+    
+                        img {
+                            padding: 0px 5px 0px 0px;
+                            margin-top: -3px;
+                        }
+                    }
+                }
+                
+                .nomeComentario {
+                    text-align: justify;
+                    span {
+                        color: #000000;
+                        padding: 25px 2px 0px 10px;
+                        font-weight: 700;
+    
+                        img {
+                            padding: 0px 5px 0px 0px;
+                            margin-top: -3px;
+                        }
+                    }
+                }
+    
+               
+            }
+
+            .textoComentario{
+                text-align: justify;
+                padding: 0px 20px 0px 10px;
+
+                span {
+                    color: #000000;
+                    font-weight: 400;
+                }
+            }    
+            
+            img{
+                width: 20px;
+            }
+
+            button{
+                text-align: center;
+                background-color: white;
+                border: 2px solid #0AA06E;
+                width: 35%;
+                height: 40px;
+                color: #0AA06E;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .solutionInserir{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+        }
+
+        .secondComentario {
+
+            text-align: justify;
+            padding: 0px 20px 20px 20px;
+
+            span {
+                color: #000000;
+                font-weight: 500;
+            }
+        }
+
+    }
+
+    
+    .envioChamado {
+        padding: 20px;
+        width: 100%;
+
+            form{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+
+                    input {
+                        width: 50%;
+                        height: 43px;
+                        background: #f8f8f8;
+                        border: 2px solid #256BA8;
+                        border-radius: 3px 3px 3px 3px;
+                        padding: 8px;
+                    }
+
+                    button {
+                        width: 30%;
+                        height: 40px;
+                        background: #f8f8f8;
+                        border-radius: 3px;
+                        border: 2px solid #f8f8f8;
+                        background-color: #256BA8;
+                        color: white;
+                        font-weight: 600;
+                        padding: 5px 30px;
+                    }
+
+                    ::-webkit-input-placeholder{
+                        color: #000000;
+                        font-weight: 600;
+                    }
+            } 
+        }
+    }
+
+
+  

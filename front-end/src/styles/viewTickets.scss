@@ -1,0 +1,11 @@
+main {
+    margin-top: 43px;
+    text-align: center;
+
+    .input-content {
+        max-width: 50%;
+        .form-control {
+            border-right: none;
+        }
+    }
+}
